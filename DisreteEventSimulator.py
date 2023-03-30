@@ -175,5 +175,6 @@ def processEvents():
         e.action(Q,S)   
     i = S.get_total_wait_time()
     j = S.get_customers_count()
-    print(i,j, i/j )
-    print(S.waitings)
+    print("Total Waiting Time=", i, " Of ",j, " Customers. Avg Waiting Time of one Customer =  ", i/j )
+    
+    print("Customers waiting times ",S.waitings)
