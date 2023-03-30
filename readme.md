@@ -8,13 +8,14 @@ This is a python simulation for a Post Office model with the following character
 - the goal of this simulator is to optimize the open/close schedule [time and duaration]
 
 
-Run the Example:
+# Run the Example:
 - `metacall main.js`
 
+# How to use the simulator 
 You can use the simulator by inserting your events using the functions imported from the python file and then run the main.js file to see the output and how the simulator schedules the events and some statistics about the waiting time. 
 
 Here is the application output: 
-    $ metacall main.js 
+`    $ metacall main.js 
     CUSTOMER(1.0,1.0)
     CUSTOMER(1.1,3.0)
     WOPEN(2.0,5.0)
@@ -31,4 +32,4 @@ Here is the application output:
     WCLOSE(15.0)
     Total Waiting Time= 11.9  Of  4  Customers. Avg Waiting Time of one Customer =   2.975
     Customers waiting times  [2.0, 1.0, 4.9, 4.0]
-    Script (main.js) loaded correctly
+    Script (main.js) loaded correctly  `
