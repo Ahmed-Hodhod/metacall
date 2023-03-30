@@ -16,7 +16,7 @@ You can use the simulator by inserting your events using the functions imported 
 
 Here is the application output: 
 ```text
-$ metacall main.js 
+     $ metacall main.js 
         CUSTOMER(1.0,1.0)
         CUSTOMER(1.1,3.0)
         WOPEN(2.0,5.0)
