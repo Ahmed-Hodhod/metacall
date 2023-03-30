@@ -1,4 +1,4 @@
-#Discrete Event Simulator 
+# Discrete Event Simulator 
 This is a python simulation for a Post Office model with the following characterestics:
 - the post office has a window with one worker.
 - the window is either open, busy or closed.
