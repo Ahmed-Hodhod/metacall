@@ -12,7 +12,15 @@ This is a python simulation for a Post Office model with the following character
 - `metacall main.js`
 
 # How to use the simulator 
-You can use the simulator by inserting your events using the functions imported from the python file and then run the main.js file to see the output and how the simulator schedules the events and some statistics about the waiting time. 
+To use the simulator, you just need to pass the events such as when a customer arrives and the time he/she needs to get served, when the window closes and when it opens and so on. 
+
+Here is an example with some events: 
+CustomerArrivalEvent(1,1)   // the customer arrives at time = 1 and needs 1 unit of time to get served
+CustomerArrivalEvent(1.1,3)
+WindowOpenEvent(2,5)   // the post office window first opens at time 2 for 5 units of time and closes at time = 7 
+CustomerArrivalEvent(2,1) // the third customer arrives at time = 2 
+CustomerArrivalEvent(3,1)
+WindowOpenEvent(10,5)
 
 Here is the application output: 
 ```text
